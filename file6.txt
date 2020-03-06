@@ -1,2 +1,3 @@
 "I am new in Git" 
+Change file6 on b1
  
