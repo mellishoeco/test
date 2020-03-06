@@ -1,0 +1,110 @@
+Git :
+Centos 7:
+git
+yum install git -y
+git --version
+
+---------
+git init
+ll -al
+vim file1.txt
+git status
+git add file1.txt
+git status
+git commit -m "First commit"
+git rm --cached file1.txt
+git ls-files
+git config --global user.name "devops"
+git config --global user.email "devops@gmail.com"
+-----------
+git commit -a -m "a message"
+---------
+Git :
+Centos 7:
+git
+yum install git -y
+git --version
+
+---------
+git init
+ll -al
+vim file1.txt
+git status
+git add file1.txt
+git status
+git commit -m "First commit"
+git rm --cached file1.txt
+git ls-files
+git config --global user.name "devops"
+git config --global user.email "devops@gmail.com"
+-----------
+git commit -a -m "a message"
+git log
+git log --oneline
+git log file1.txt
+git log --help
+------------
+git diff file4.txt
+git diff --staged file4.txt
+------------
+git rm
+git rm -cached
+git checkout -- <filename>
+git reset <filename>
+------------
+vim .gitignore
+git add .gitignore
+ file1.txt
+git commit -m "ignore"
+------------
+git checkout -- file1.txt
+git reset HEAD file1.txt
+-----------
+git reset --soft HEAD~1 (temporary delete first commit)
+git log --oneline
+git commit - m "message"
+git status
+git reset HEAD filename.txt
+-----------
+git log --oneline
+git reset --hard HEAD~2 (compleate remove two first commit)
+mixed ( wd.. , git add , git commit)
+soft (staging , git commit)
+hard ( delete , unrecover , permanenet )
+-----------
+git branch
+git status
+git checkout -b test (create a test branch)
+git log --oneline master
+git log --oneline test
+git checkout master
+git merge test master
+------------
+git stash
+git stash list
+git show stash@{0}
+git stash pop stash@{0}  (move from temp to work directory)
+
+------------
+git stash
+git stash list
+git stash apply stash@{0}
+git status
+
+-------------
+git stash -p
+git stash list
+git show stash@{0}
+--------------
+git stash clear
+git stach drop stash@{1}
+git stash list
+--------------
+
+
+
+
+
+
+
+
